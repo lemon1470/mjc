@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Humanfont';
+    src: url('media2/HMFMPYUN/HMFMPYUN.TTF') format('truetype');
+}
+
+p {
+    font-family: 'Humanfont', Arial, sans-serif;
+    font-size: 1em; 
+    text-indent: 1em; 
+}
+
+
+h1{
+    color: brown;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+.menu
+{
+    border: 1px solid blue;
+    border-style: dotted;
+}
+h3{
+    text-shadow: 3px 3px 3px gray;
+}
+
+hr{
+    color: black;
+}
+.hobby{
+    width: 30%;
+    height: 10%;
+}
+table{
+    width: 50%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+body{
+
+    font-size: 1.3rem;
+}
+.scadule_box{
+    width: 12%;
+}
+.under{
+    width: 12%;
+    border-bottom: 0;
+}
+.all{
+    width: 12%;
+    border-bottom: 0;
+    border-top: 0;
+}
+
+
+.up{
+    width: 12%;
+    border-top: 0;
+}
+footer{
+    border-radius: 5px;
+    background-color: orange;
+}
