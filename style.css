@@ -48,22 +48,45 @@ body{
 .scadule_box{
     width: 12%;
 }
-.under{
-    width: 12%;
-    border-bottom: 0;
-}
-.all{
-    width: 12%;
-    border-bottom: 0;
-    border-top: 0;
-}
 
-
-.up{
-    width: 12%;
-    border-top: 0;
-}
 footer{
     border-radius: 5px;
     background-color: orange;
 }
+table{
+    border-collapse: collapse;
+}
+td, th{
+    text-align: left;
+    padding: 5px;
+    height: 15px;
+    width: 100px;
+}
+thead, tfoot{
+    background: darkgray;
+    color: yellow;
+}
+tbody tr:nth-child(odd){
+    background: aliceblue;
+}
+tbody tr:hover{
+    background: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
